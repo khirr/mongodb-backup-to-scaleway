@@ -17,5 +17,5 @@ docker buildx build --platform=linux/amd64 . -t mongodb-backup
 ## Kubernetes
 You can run a cronjob task with 200m of CPU and 256Mi of RAM.
 
-### License
+## License
 MIT
