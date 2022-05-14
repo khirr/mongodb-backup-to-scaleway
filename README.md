@@ -1,6 +1,6 @@
 ## MongoDB
 ### Recommendation
-If you use a replicaSet, include in your EXTRA_PARAMS readPreference=secondary for best performance
+If you use a replicaSet, include in your EXTRA_PARAMS readPreference=secondary for best performance.
 
 ## Docker
 ### Build and Run
@@ -16,3 +16,6 @@ docker buildx build --platform=linux/amd64 . -t mongodb-backup
 
 ## Kubernetes
 You can run a cronjob task with 200m of CPU and 256Mi of RAM.
+
+### License
+MIT
